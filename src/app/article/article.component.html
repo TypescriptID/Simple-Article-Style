@@ -1,0 +1,26 @@
+<div class="article">
+    <div class="container">
+        <h1>Articles Style</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea, porro. Aperiam ipsum expedita, voluptatum ipsam quod porro adipisci maxime amet cupiditate! Vel quidem totam error soluta, iste aut temporibus tempora!</p>
+    </div>
+</div>
+
+<div class="article-content">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4" *ngFor="let i of article">
+                <a [routerLink]="['/', i.url]">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <img [src]="i.img" alt="">
+                        </div>
+                        <div class="panel-footer">
+                            <h3>{{i.title}}</h3>
+                            <p>{{i.desc}}</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

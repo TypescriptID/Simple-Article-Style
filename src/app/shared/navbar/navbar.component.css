@@ -1,0 +1,54 @@
+.navbar {
+    border-top: 3px #4caf50 solid;
+    padding: 12px 0px;
+    background: #ffffff;
+    font-family: 'Titillium Web';
+}
+
+.navbar-brand img {
+    width: 100px;
+}
+
+li.active a {
+    background: none !important;
+    font-family: 'Ubuntu';
+    font-size: 18px;
+}
+
+li.active a:hover {
+    color: #4caf50;
+}
+
+input#search {
+    width: 350px;
+}
+
+input#search:focus {
+    width: 350px;
+    border: 1px #4caf50 solid;
+    box-shadow: none;
+}
+
+@media screen and (max-width:780px) {
+    .navbar-brand img {
+        width: 75px;
+        margin: -14px 0px;
+        padding: 0px 15px;
+        box-shadow: none;
+    }
+    input#search {
+        width: 100%;
+    }
+    input#search:focus {
+        width: 100%;
+        border: 1px #4caf50 solid;
+        box-shadow: none;
+    }
+    .navbar-default .navbar-collapse,
+    .navbar-default .navbar-form {
+        border-style: none !important;
+    }
+    #link {
+        display: none;
+    }
+}

@@ -1,0 +1,31 @@
+.article-view {
+    margin-top: 75px;
+    padding: 75px 0px;
+    background: #4caf50;
+    color: #ffffff;
+    font-family: 'Ubuntu';
+}
+
+.content-view {
+    margin-top: -50px;
+}
+
+.content-view .container {
+    padding: 0px 50px;
+}
+
+.content-view img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 1px 1px 0px #e0e0e0;
+    background: #ffffff;
+}
+
+.content {
+    padding: 23px 0px;
+}
+
+.content p {
+    font-family: 'Roboto Mono';
+    font-size: 18px;
+}
